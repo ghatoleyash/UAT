@@ -1,1 +1,1 @@
-# UAT
+# Universal Approximation Theorem
