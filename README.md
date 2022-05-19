@@ -30,9 +30,13 @@ An activation layer is applied right after a linear layer in the Neural Network 
 
 
 ## Results
+Approximating the sinusoidal function
+
 * Shallow/Wide Network
 <img src="https://github.com/ghatoleyash/UAT/blob/main/images/WideNet.png" width=80% height=50%>
 
 
 * Narrow/Deep Network
 <img src="https://github.com/ghatoleyash/UAT/blob/main/images/DeepNet.png" width=80% height=50%>
+
+*Note: Used "tanh" as activation function since its range is (-1,1) as the approximating function is sinusoidal*
