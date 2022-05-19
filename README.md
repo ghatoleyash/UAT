@@ -1,6 +1,6 @@
 # Universal Approximation Theorem
 
-
+## Theory
 * There was a need to determine whether a neural network had the potential to approximate any type of functions.
 * Initial results from K. Hornik '89 focuses on sigmoids
 * M. Leshno et al '93 generalizes to other functions (e.g., ReLU)
@@ -27,3 +27,12 @@ Universal approximation theorems imply that neural networks can represent a wide
 
 
 An activation layer is applied right after a linear layer in the Neural Network to provide non-linearities. Non-linearities help Neural Networks perform more complex tasks. An activation layer operates on activations (h₁, h2 in this case) and modifies them according to the activation function provided for that particular activation layer. Activation functions are generally non-linear except for the identity function. Some commonly used activation functions are ReLu, sigmoid, softmax, etc. With the introduction of non-linearities along with linear terms, it becomes possible for a neural network to model any given function approximately on having appropriate parameters(w₁, w₂, b₁, etc in this case). The parameters converge to appropriateness on training suitably. You can get better acquainted mathematically with the Universal Approximation theorem from.
+
+
+## Results
+* Shallow/Wide Network
+<img src="https://github.com/ghatoleyash/UAT/blob/main/images/WideNet.png" width=80% height=50%>
+
+
+* Narrow/Deep Network
+<img src="https://github.com/ghatoleyash/UAT/blob/main/images/DeepNet.png" width=80% height=50%>
